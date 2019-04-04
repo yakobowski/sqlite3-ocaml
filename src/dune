@@ -6,7 +6,7 @@
     ; NOTE: for debugging before releases
     ; -Wall -pedantic -Wextra -Wunused -Wno-long-long -Wno-keyword-macro
   ))
-  (c_library_flags (:include c_library_flags.sexp) -lpthread)
+  (c_library_flags (:include c_library_flags.sexp))
 )
 
 (rule
